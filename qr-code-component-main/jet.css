@@ -1,0 +1,83 @@
+body{
+	background-color: hsl(212, 45%, 89%);
+	font-size: 15px;
+	text-align: center;
+	font-family: Outfit;
+}
+
+.a{
+	margin: 80px auto;
+	border:none;
+	padding: 5px -4px -4px 1px;
+	border-radius: 20px;
+	width: 24%;
+ 	background-color: white;
+
+}
+.t{width: 380px;
+	border-radius: 10px;
+	margin-left: -5px;
+	padding-bottom: 0px;
+	margin-top: 25px;
+}
+
+  .s{
+  	 font-size: 25px;
+  	 margin-top: 20px;
+  	 color:hsl(218, 44%, 22%);
+  	 font-weight: 700;
+  }
+  .c{
+	color:hsl(220, 15%, 55%);
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: -10px;
+	padding-bottom: 50px;
+	
+}
+/*this portion is for moblie view*/
+@media screen and (max-width:375px){
+
+	.a{
+	margin: 80px auto;
+	border:none;
+	padding: 5px -4px -4px 1px;
+	border-radius: 20px;
+	width: 89%;
+ 	background-color: white;
+
+}
+
+.t{
+	width: 280px;
+	border-radius: 10px;
+	margin-left: -2px;
+	padding-bottom: 0px;
+	margin-top: 25px;
+}
+.s{
+  	 font-size: 23px;
+  	 margin-top: 20px;
+  	 color:hsl(218, 44%, 22%);
+  	 font-weight: 700;
+  }
+  .c{
+	color:hsl(220, 15%, 55%);
+	font-size: 15.6px;
+	font-weight: 400;
+	margin-top: -10px;
+	padding-bottom: 50px;
+	
+}
+
+}
+
+@media screen and (min-width: 1440px){
+	.t{width: 300px;
+	border-radius: 10px;
+	margin-left: -5px;
+	padding-bottom: 0px;
+	margin-top: 25px;
+}
+
+}
